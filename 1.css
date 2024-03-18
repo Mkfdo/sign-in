@@ -1,0 +1,123 @@
+@import url('https://fonts.google.com/selection/embed#:~:text=.poppins%2Dextrabold%2Ditalic%20%7B%0A%20%20font%2Dfamily%3A%20%22Poppins%22%2C%20sans%2Dserif%3B%0A%20%20font%2Dweight%3A%20800%3B%0A%20%20font%2Dstyle%3A%20italic%3B%0A%7D');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    text-decoration: underline;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.login_box{
+    position: relative;
+    width: 450px;
+    border: 2px whitesmoke;
+    border-radius: 15px;
+    padding: 7.5em 2.5em 4em 2.5em;
+    color: black;
+
+    
+}
+
+.login-header{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    
+
+}
+.login-header span{
+    font-size: 20px;
+    color: black;
+}
+
+.login-subheader{
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    display: flex;
+}
+
+.input_box{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px 0;
+    border: black;
+}
+
+.input-field{
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    color: black;
+    padding-inline: 20px 50px;
+    border: black;
+    outline-color: black;
+
+}
+
+#email{
+    margin-bottom: 10px;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.input-submit{
+    width: 100%;
+    height: 50px;
+    background: rgba(49, 70, 187);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+
+}
+
+.input-submit :hover{
+    background: white;
+}
+
+.register{
+    text-align: center;
+    
+}
+
+.register a{
+    font-weight: 500;
+}
